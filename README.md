@@ -1,24 +1,20 @@
-# Neon Matrix: Neural Survival
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A high-stakes memory sequence game featuring a retro-futuristic cyberpunk interface. Players must memorize and replicate complex patterns to stay connected to the system.
+# Run and deploy your AI Studio app
 
-## Features
-* **Adaptive Difficulty:** Sequences grow longer and faster as you progress.
-* **Immersive UI:** High-contrast neon aesthetics with custom "System Failure" states.
-* **Dynamic Scoring:** Track your points and level progress in real-time.
-* **Mobile Ready:** Optimized as an Android APK for on-the-go training.
+This contains everything you need to run your app locally.
 
-## Tech Stack
-* **Core:** HTML5, CSS3, JavaScript.
-* **Mobile Wrapper:** Capacitor / Android Studio.
-* **Tools:** Node.js, NPM.
+View your app in AI Studio: https://ai.studio/apps/temp/1
 
-## Installation
-1. Download the `app-debug.apk` from the `outputs` folder.
-2. Transfer it to your Android device.
-3. Install and "Initialize" the sequence.
+## Run Locally
 
-## Project Details
-* **Student:** Adithya Kumar T.
-* **Reg No:** 24BCE1588.
-* **University:** VIT Chennai.
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
